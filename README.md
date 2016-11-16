@@ -26,15 +26,15 @@ This widget works offline.
 
 ## Configuration
 
-### Button
+### Behavior
 
-#### Label
+#### Element class selector
 
-The label text that is shown on the button.
+CSS Selector for the element that will be used for the onClick event. Make sure your element has a proper css class set in the Modeler AND is on the same level (this means putting the element, for example a button, in the same container as this widget).
 
-#### Class
+#### Element name selector
 
-An optional class to be placed directly on the button dom node.
+Name Selector for the element that will be used for the onClick event. See 'Element class selector'. Note: The CSS class selector overrides the Name selector. If you want to use the Name selector, make sure the CSS Selector is empty.
 
 ### Data source
 
