@@ -2,13 +2,10 @@ define([
     "dojo/_base/declare",
     "mxui/widget/_WidgetBase",
     "dojo/_base/lang",
-    "mxui/dom",
     "dojo/query",
     "dojo/_base/array",
-    "dojo/dom-class",
-    "dojo/dom-construct",
     "dojo/NodeList-traverse"
-], function(declare, _WidgetBase, lang, mxuiDom, query, array, dojoClass, dojoConstruct) {
+], function(declare, _WidgetBase, lang, query, array) {
     "use strict";
 
     return declare("AddToCalendarWidgetForPhoneGap.widget.AddToCalendarWidgetForPhoneGap", _WidgetBase, {
