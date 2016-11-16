@@ -1,0 +1,3 @@
+[submodule "src/AddToCalendarWidgetForPhoneGap/lib/AbstractPhoneGapWidget"]
+	path = src/AddToCalendarWidgetForPhoneGap/lib/AbstractPhoneGapWidget
+	url = git@github.com:mendix/AbstractPhoneGapWidget.git
