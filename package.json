@@ -1,12 +1,11 @@
 {
   "name": "AddToCalendarWidgetForPhoneGap",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Add an event to your calendar, using the native calendar",
   "license": "Apache 2",
   "author": "J.W. Lagendijk <jelte.lagendijk@mendix.com>",
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
